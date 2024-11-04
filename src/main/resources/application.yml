@@ -1,0 +1,12 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: demo-api-rest-sb-kt
+    datasource:
+        driverClassName: org.h2.Driver
+        password: password
+        url: jdbc:h2:mem:testdb
+        username: sa
+    jpa:
+        database-platform: org.hibernate.dialect.H2Dialect
